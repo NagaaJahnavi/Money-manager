@@ -3,7 +3,7 @@ import axios from "axios";
 import AddTransactionModal from "../components/AddTransactionModal";
 import Transfer from "../components/Transfer";
 
-const API = "https://money-manager-backend-33qh.onrender.com";
+const API = " https://money-manager-4.onrender.com";
 
 export default function Dashboard() {
   const [open, setOpen] = useState(false);

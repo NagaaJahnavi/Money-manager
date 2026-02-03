@@ -10,9 +10,9 @@ export default function AddTransactionModal({ onClose, api }) {
 
   const submit = async e => {
     e.preventDefault();
-    await axios.post(`${api}/transactions`,{
+    await axios.post("https://money-manager-4.onrender.com/transactions"),{
       type:tab,amount,category,division,description,accountId:1
-    });
+    };
     onClose();
   };
 
